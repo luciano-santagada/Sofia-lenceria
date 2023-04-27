@@ -122,5 +122,11 @@ flex-direction: column;
         align-items: center;
         width: 100px;
     }
+
+    .pie-ayuda {
+    position: static;
+    bottom: 0;
+    margin-top: 30px;
+    }
     
 }
