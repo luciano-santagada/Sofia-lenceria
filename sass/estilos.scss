@@ -41,6 +41,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 380px;
 }
 
 .tarjetita-2 {
@@ -50,6 +51,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 380px;
 }
 
 .tarjetita-3 {
@@ -59,6 +61,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 380px;
 }
 
 .informacion {
@@ -82,7 +85,9 @@
     height: 525px;
 }
 
-
+.imagen-prod {
+    height: 525px;
+}
 
 .title {
     display: flex;

@@ -6,6 +6,6 @@ $viewport: (
 $color-primario: white;
 $color-secundario: black;
 
-$bk-tarjeta1: rgb(226, 26, 216);
-$bk-tarjeta2: rgb(4, 91, 117);
-$bk-tarjeta3: rgb(199, 4, 4);
+$bk-tarjeta1: linear-gradient(90deg, rgba(140,6,123,1) 19%, rgba(255,0,73,1) 100%); 
+$bk-tarjeta2: linear-gradient(90deg, rgba(11,236,219,1) 27%, rgba(4,8,231,1) 100%);
+$bk-tarjeta3: linear-gradient(90deg, rgba(236,113,11,1) 0%, rgba(251,8,8,1) 100%);

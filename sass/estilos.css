@@ -33,30 +33,33 @@
 }
 
 .tarjetita-1 {
-  background-color: rgb(226, 26, 216);
+  background: linear-gradient(90deg, rgba(140,6,123,1) 19%, rgba(255,0,73,1) 100%);
   border-radius: 30px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 380px;
 }
 
 .tarjetita-2 {
-  background-color: rgb(4, 91, 117);
+  background: linear-gradient(90deg, rgba(11,236,219,1) 27%, rgba(4,8,231,1) 100%);
   border-radius: 30px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 380px;
 }
 
 .tarjetita-3 {
-  background-color: rgb(199, 4, 4);
+  background: linear-gradient(90deg, rgba(236,113,11,1) 0%, rgba(251,8,8,1) 100%);
   border-radius: 30px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 380px;
 }
 
 .informacion {
@@ -74,6 +77,7 @@
 .tarjetita-imagen-3 {
   height: 525px;
 }
+
 
 .imagen-prod {
   height: 525px;
@@ -108,19 +112,24 @@
   .tarjetitas {
     flex-direction: column;
   }
+
   .imagen-inicio p {
     justify-content: center;
     align-items: center;
     width: 100vh;
   }
+
   .imagen-inicio h2 {
     justify-content: center;
     align-items: center;
     width: 100px;
   }
+
   .pie-ayuda {
     position: static;
     bottom: 0;
     margin-top: 30px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
