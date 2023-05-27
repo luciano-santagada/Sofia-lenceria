@@ -64,6 +64,23 @@
   padding: 0 20px 20px 20px;
 }
 
+.tarjetita-boton {
+  background-color: lightgrey;
+  font-size: 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tarjetita-boton:hover {
+  transform: translateY(1px);
+  background-color: #383737;
+  transition: transform 0.3s ease, background-color 3s ease;
+}
+
 .tarjetita-imagen-1 {
   height: 525px;
 
